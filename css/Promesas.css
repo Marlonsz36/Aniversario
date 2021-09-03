@@ -84,10 +84,12 @@ a{
   margin-left: 1em;
   border-radius: 1em;
   color: #FFF;
+  -webkit-clip-path: circle(0% at 50% 50%);
   clip-path: circle(0% at 50% 50%);
   transition: all .5s;
 }
 .col-3:hover .contenido{
+  -webkit-clip-path: circle(100% at 50% 50%);
   clip-path: circle(100% at 50% 50%);
 }
 .col-3:hover img{
