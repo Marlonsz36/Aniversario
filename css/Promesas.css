@@ -78,9 +78,9 @@ a{
 }
 .contenido{
   width: 90%;
-  height: 90%;
+  height: auto;
   background: #3F8A89;
-  margin-top: -80%;
+  margin-top: -70%;
   margin-left: 1em;
   border-radius: 1em;
   color: #FFF;
